@@ -15,7 +15,7 @@
 	    	    
 	    <!-- CSS -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-	    <link rel="stylesheet" href="assets/css/flipout_cards.css">	    
+		<link rel="stylesheet" href="assets/css/cocoen.min.css" />
 	    <link rel="stylesheet" href="assets/css/reset.css">
 	    <link rel="stylesheet" href="assets/css/main.css">
 	</head>
@@ -23,9 +23,9 @@
 	<div class="page-wrap">
 		<div class="header">
 			<ul class="header__navbar">
-				<li><a href="#" class="navbar__items navbar__logo"></a></li>			
+				<li><a href="#"><img class="navbar__logo" src="assets/img/logo.png" alt="ili Logo"></a></li>			
 				<li><a href="#" class="navbar__items">Home</a></li>
-				<li><a href="#" class="navbar__items">Idea</a></li>
+				<li><a href="#hero" class="navbar__items">Idea</a></li>
 				<li><a href="#" class="navbar__items">Kickstarter</a></li>
 				<li><a href="#" class="navbar__items">Contact</a></li>
 			</ul>
@@ -34,26 +34,23 @@
 		<h2 class="headline">ili Translator</h2>
 
 		<div class="travel">
-			<img class="main__img" src="assets/img/travel.jpg" alt="Travel with ili">
+			<img class="main__img" src="assets/img/traveling.png" alt="Travel with ili">
+
+
+			<div class="teaser">
+				<img src="assets/img/product.png" alt="ili Translator">
+			</div>
 		</div>
 
-<!-- 		<div class="flipout">
-		  <div class="foc-main">
-		  	<img src="assets/img/product.png" alt="Ili Translator">
-		  </div>
-		  <div class="foc-left">
-		  	<img src="assets/img/product.png" alt="Ili Translator">
-		  </div>
-		  <div class="foc-bottom">
-		  	<img src="assets/img/product.png" alt="Ili Translator">
-		  </div>
-		</div> -->
-
-		<div class="hero">
-			<h1 class="hero__headline">The World's First Wearable Translator</h1>
+		<div name="#hero" class="hero" >
 			<div class="hero__product">
-				<img src="assets/img/product.png" alt="Ili Translator">
+				<!-- <img src="assets/img/product.png" alt="ili Translator"> -->
+				<img class="ili-img-stack stack-red" src="assets/img/ili_red.png" alt="ili Red">
+				<img class="ili-img-stack stack-blue" src="assets/img/ili_blue.png" alt="ili Blue">
+				<img class="ili-img-stack stack-green" src="assets/img/ili_green.png" alt="ili Green">
+				<img class="ili-img-stack stack-white" src="assets/img/product.png" alt="ili White">
 			</div>
+			<h1 class="hero__headline">The World's First Wearable Translator</h1>
 			<p class="hero__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae inventore similique molestias ut necessitatibus modi nam, a numquam expedita, illo architecto fugit. Velit hic tenetur illo, tempora quo. Accusamus, culpa! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum vitae, eligendi ipsam totam sapiente dolores fugiat soluta quae molestiae facere temporibus doloribus laboriosam omnis? Consequuntur tenetur, doloremque ex ea.</p>
 		</div>
 
@@ -72,16 +69,24 @@
 			</div>
 		</div>
 
-		<div class="main">
-			<img class="main__img" src="assets/img/main-img.jpg" alt="">
+		<div class="ad-container"></div>
+
+		<div class="translator">
+			<p class="subheadline"> Why write when talking is so much easier? Be a part of every culture you travel to with the click of a button.</p>
+
+			<div class="cocoen">
+			  <img src="assets/img/english.png" alt="">
+			  <img src="assets/img/german.png" alt="">
+			</div>
+			
 		</div>
+
 
 		<div class="footer">
 			<ul class="footer__navbar">
-				<li><a href="#" class="navbar__items">Home</a></li>
-				<li><a href="#" class="navbar__items">Idea</a></li>
-				<li><a href="#" class="navbar__items">Kickstarter</a></li>
-				<li><a href="#" class="navbar__items">Contact</a></li>
+				<li><a href="#" class="navbar__items">Top</a></li>
+				<li><a href="#"><img class="navbar__logo" src="assets/img/logo.png" alt="ili Logo"></a></li>			
+				<li><a href="#" class="navbar__items">&copy;2017 - ili</a></li>
 			</ul>
 		</div>
 
@@ -91,6 +96,9 @@
 		  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
 		  crossorigin="anonymous">  	
 		</script>
+		<script src="assets/js/jquery.scrollTo.js"></script>
+		<script src="assets/js/parallax.js"></script>	
+		<script src="assets/js/cocoen.js"></script>
 		<script src="assets/js/main.js"></script>
 	</div>
 	</body>
