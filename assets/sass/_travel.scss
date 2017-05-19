@@ -1,0 +1,19 @@
+.travel {
+	width: 100%;
+	margin-bottom: 50px;
+
+	.main__img {
+		width: 100%;
+	}
+
+	.teaser {
+		position: absolute;
+		top: 110%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		& img {
+			width: 100px;
+		}
+	}	
+}

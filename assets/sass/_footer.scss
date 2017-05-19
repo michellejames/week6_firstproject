@@ -1,0 +1,28 @@
+.footer__navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #1E222E;
+	height: 50px;
+	padding: 25px;
+	border-bottom: 5px solid #692436;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+
+	.navbar__items {
+		text-decoration: none;
+		color: #EEF7FC;
+		width: 100%;
+		transition: 0.3s ease;
+		font-size: 20px;
+		border-top: 2px solid transparent;
+		border-bottom: 2px solid transparent;
+		padding: 30px 0;
+		margin: 0 20px;
+	}
+
+	.navbar__items:hover {
+	  border-top: 2px solid #ffffff;
+	  border-bottom: 2px solid #ffffff;
+	  padding: 3px 0; 
+	}
+}
